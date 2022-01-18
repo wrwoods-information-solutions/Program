@@ -1,0 +1,595 @@
+unit,address,fulladdress,marketrent,unittype,Utilities benefit,Apply,updatedate,createdate
+1,  1 - 436 Kingscourt Dr.,  1 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+2,  2 - 436 Kingscourt Dr.,  2 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+3,  3 - 436 Kingscourt Dr.,  3 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+4,  4 - 436 Kingscourt Dr.,  4 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+5,  5 - 436 Kingscourt Dr.,  5 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+6,  6 - 436 Kingscourt Dr.,  6 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+7,  7 - 436 Kingscourt Dr.,  7 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+8,  8 - 436 Kingscourt Dr.,  8 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+9,  9 - 436 Kingscourt Dr.,  9 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+10, 10 - 436 Kingscourt Dr., 10 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+11, 11 - 436 Kingscourt Dr., 11 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+12, 12 - 436 Kingscourt Dr., 12 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+13, 13 - 436 Kingscourt Dr., 13 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+14, 14 - 436 Kingscourt Dr., 14 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+14, 14 - 436 Kingscourt Dr., 14 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+14, 14 - 436 Kingscourt Dr., 14 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+15, 15 - 436 Kingscourt Dr., 15 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+16, 16 - 436 Kingscourt Dr., 16 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+16, 16 - 436 Kingscourt Dr., 16 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+17, 17 - 436 Kingscourt Dr., 17 - 436 Kingscourt Dr. Waterloo N3K 3R8,$810.00,2 Bed Townhouse,,1,2021-11-15,2021-11-15
+18, 18 - 436 Kingscourt Dr., 18 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+19, 19 - 436 Kingscourt Dr., 19 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+20, 20 - 436 Kingscourt Dr., 20 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+21, 21 - 436 Kingscourt Dr., 21 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+22, 22 - 436 Kingscourt Dr., 22 - 436 Kingscourt Dr. Waterloo N3K 3R8,$810.00,2 Bed Townhouse,,1,2021-11-15,2021-11-15
+22, 22 - 436 Kingscourt Dr., 22 - 436 Kingscourt Dr. Waterloo N3K 3R8,$810.00,2 Bed Townhouse,,1,2021-11-15,2021-11-15
+23, 23 - 436 Kingscourt Dr., 23 - 436 Kingscourt Dr. Waterloo N3K 3R8,$940.00,4 Bed Townhouse,,1,2021-11-15,2021-11-15
+24, 24 - 436 Kingscourt Dr., 24 - 436 Kingscourt Dr. Waterloo N3K 3R8,$940.00,4 Bed Townhouse,,1,2021-11-15,2021-11-15
+25, 25 - 456 Kingscourt Dr., 25 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2021-11-15,2021-11-15
+26, 26 - 456 Kingscourt Dr., 26 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2021-11-15,2021-11-15
+26, 26 - 456 Kingscourt Dr., 26 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2021-11-15,2021-11-15
+27, 27 - 456 Kingscourt Dr., 27 - 456 Kingscourt Dr. Waterloo  ,$810.00,2 Bed Townhouse,,1,2021-11-15,2021-11-15
+28, 28 - 456 Kingscourt Dr., 28 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+29, 29 - 456 Kingscourt Dr., 29 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+30, 30 - 456 Kingscourt Dr., 30 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+30, 30 - 456 Kingscourt Dr., 30 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+31, 31 - 456 Kingscourt Dr., 31 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2021-11-15,2021-11-15
+32, 32 - 456 Kingscourt Dr., 32 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2021-11-15,2021-11-15
+33, 33 - 456 Kingscourt Dr., 33 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+34, 34 - 456 Kingscourt Dr., 34 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+35, 35 - 456 Kingscourt Dr., 35 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+36, 36 - 456 Kingscourt Dr., 36 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+37, 37 - 456 Kingscourt Dr., 37 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+38, 38 - 456 Kingscourt Dr., 38 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+38, 38 - 456 Kingscourt Dr., 38 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+39, 39 - 456 Kingscourt Dr., 39 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+40, 40 - 456 Kingscourt Dr., 40 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+40, 40 - 456 Kingscourt Dr., 40 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+41, 41 - 456 Kingscourt Dr., 41 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+42, 42 - 456 Kingscourt Dr., 42 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+43, 43 - 456 Kingscourt Dr., 43 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+43, 43 - 456 Kingscourt Dr., 43 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+44, 44 - 456 Kingscourt Dr., 44 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+45, 45 - 456 Kingscourt Dr., 45 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+46, 46 - 456 Kingscourt Dr., 46 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2021-11-15,2021-11-15
+101,101 - 456 Kingscourt Dr.,101 - 456 Kingscourt Dr. Waterloo  ,$630.00,1 Bed Apartment,,1,2021-11-15,2021-11-15
+102,102 - 456 Kingscourt Dr.,102 - 456 Kingscourt Dr. Waterloo  ,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+103,103 - 456 Kingscourt Dr.,103 - 456 Kingscourt Dr. Waterloo  ,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+104,104 - 446 Kingscourt Dr.,104 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2021-11-15,2021-11-15
+105,105 - 446 Kingscourt Dr.,105 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2021-11-15,2021-11-15
+106,106 - 446 Kingscourt Dr.,106 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+107,107 - 446 Kingscourt Dr.,107 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+108,108 - 446 Kingscourt Dr.,108 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2021-11-15,2021-11-15
+109,109 - 446 Kingscourt Dr.,109 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+110,110 - 446 Kingscourt Dr.,110 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+111,111 - 446 Kingscourt Dr.,111 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+112,112 - 446 Kingscourt Dr.,112 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+201,201 - 446 Kingscourt Dr.,201 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+202,202 - 446 Kingscourt Dr.,202 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+203,203 - 446 Kingscourt Dr.,203 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+204,204 - 446 Kingscourt Dr.,204 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+205,205 - 446 Kingscourt Dr.,205 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+206,206 - 446 Kingscourt Dr.,206 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2021-11-15,2021-11-15
+207,207 - 446 Kingscourt Dr.,207 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+208,208 - 446 Kingscourt Dr.,208 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+209,209 - 446 Kingscourt Dr.,209 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+210,210 - 446 Kingscourt Dr.,210 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+211,211 - 446 Kingscourt Dr.,211 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+212,212 - 446 Kingscourt Dr.,212 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+213,213 - 446 Kingscourt Dr.,213 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2021-11-15,2021-11-15
+214,214 - 446 Kingscourt Dr.,214 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+215,215 - 446 Kingscourt Dr.,215 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+216,216 - 446 Kingscourt Dr.,216 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+301,301 - 446 Kingscourt Dr.,301 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+302,302 - 446 Kingscourt Dr.,302 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+303,303 - 446 Kingscourt Dr.,303 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+304,304 - 446 Kingscourt Dr.,304 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+305,305 - 446 Kingscourt Dr.,305 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+306,306 - 446 Kingscourt Dr.,306 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2021-11-15,2021-11-15
+307,307 - 446 Kingscourt Dr.,307 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+308,308 - 446 Kingscourt Dr.,308 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+309,309 - 446 Kingscourt Dr.,309 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+310,310 - 446 Kingscourt Dr.,310 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+311,311 - 446 Kingscourt Dr.,311 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+312,312 - 446 Kingscourt Dr.,312 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+313,313 - 446 Kingscourt Dr.,313 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2021-11-15,2021-11-15
+314,314 - 446 Kingscourt Dr.,314 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+315,315 - 446 Kingscourt Dr.,315 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+316,316 - 446 Kingscourt Dr.,316 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2021-11-15,2021-11-15
+1,  1 - 436 Kingscourt Dr.,  1 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+2,  2 - 436 Kingscourt Dr.,  2 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+3,  3 - 436 Kingscourt Dr.,  3 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+4,  4 - 436 Kingscourt Dr.,  4 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+5,  5 - 436 Kingscourt Dr.,  5 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+6,  6 - 436 Kingscourt Dr.,  6 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+7,  7 - 436 Kingscourt Dr.,  7 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+8,  8 - 436 Kingscourt Dr.,  8 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+9,  9 - 436 Kingscourt Dr.,  9 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+10, 10 - 436 Kingscourt Dr., 10 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+11, 11 - 436 Kingscourt Dr., 11 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+12, 12 - 436 Kingscourt Dr., 12 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+13, 13 - 436 Kingscourt Dr., 13 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+14, 14 - 436 Kingscourt Dr., 14 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+14, 14 - 436 Kingscourt Dr., 14 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+14, 14 - 436 Kingscourt Dr., 14 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+15, 15 - 436 Kingscourt Dr., 15 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+16, 16 - 436 Kingscourt Dr., 16 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+16, 16 - 436 Kingscourt Dr., 16 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+17, 17 - 436 Kingscourt Dr., 17 - 436 Kingscourt Dr. Waterloo N3K 3R8,$810.00,2 Bed Townhouse,,1,2022-01-10,2022-01-10
+18, 18 - 436 Kingscourt Dr., 18 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+19, 19 - 436 Kingscourt Dr., 19 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+20, 20 - 436 Kingscourt Dr., 20 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+21, 21 - 436 Kingscourt Dr., 21 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+22, 22 - 436 Kingscourt Dr., 22 - 436 Kingscourt Dr. Waterloo N3K 3R8,$810.00,2 Bed Townhouse,,1,2022-01-10,2022-01-10
+22, 22 - 436 Kingscourt Dr., 22 - 436 Kingscourt Dr. Waterloo N3K 3R8,$810.00,2 Bed Townhouse,,1,2022-01-10,2022-01-10
+23, 23 - 436 Kingscourt Dr., 23 - 436 Kingscourt Dr. Waterloo N3K 3R8,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+24, 24 - 436 Kingscourt Dr., 24 - 436 Kingscourt Dr. Waterloo N3K 3R8,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+25, 25 - 456 Kingscourt Dr., 25 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+26, 26 - 456 Kingscourt Dr., 26 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+26, 26 - 456 Kingscourt Dr., 26 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+27, 27 - 456 Kingscourt Dr., 27 - 456 Kingscourt Dr. Waterloo  ,$810.00,2 Bed Townhouse,,1,2022-01-10,2022-01-10
+28, 28 - 456 Kingscourt Dr., 28 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+29, 29 - 456 Kingscourt Dr., 29 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+30, 30 - 456 Kingscourt Dr., 30 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+30, 30 - 456 Kingscourt Dr., 30 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+31, 31 - 456 Kingscourt Dr., 31 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+32, 32 - 456 Kingscourt Dr., 32 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+33, 33 - 456 Kingscourt Dr., 33 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+34, 34 - 456 Kingscourt Dr., 34 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+35, 35 - 456 Kingscourt Dr., 35 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+36, 36 - 456 Kingscourt Dr., 36 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+37, 37 - 456 Kingscourt Dr., 37 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+38, 38 - 456 Kingscourt Dr., 38 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+38, 38 - 456 Kingscourt Dr., 38 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+39, 39 - 456 Kingscourt Dr., 39 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+40, 40 - 456 Kingscourt Dr., 40 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+40, 40 - 456 Kingscourt Dr., 40 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+41, 41 - 456 Kingscourt Dr., 41 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+42, 42 - 456 Kingscourt Dr., 42 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+43, 43 - 456 Kingscourt Dr., 43 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+43, 43 - 456 Kingscourt Dr., 43 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+44, 44 - 456 Kingscourt Dr., 44 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+45, 45 - 456 Kingscourt Dr., 45 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+46, 46 - 456 Kingscourt Dr., 46 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+101,101 - 456 Kingscourt Dr.,101 - 456 Kingscourt Dr. Waterloo  ,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+102,102 - 456 Kingscourt Dr.,102 - 456 Kingscourt Dr. Waterloo  ,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+103,103 - 456 Kingscourt Dr.,103 - 456 Kingscourt Dr. Waterloo  ,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+104,104 - 446 Kingscourt Dr.,104 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+105,105 - 446 Kingscourt Dr.,105 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+106,106 - 446 Kingscourt Dr.,106 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+107,107 - 446 Kingscourt Dr.,107 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+108,108 - 446 Kingscourt Dr.,108 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+109,109 - 446 Kingscourt Dr.,109 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+110,110 - 446 Kingscourt Dr.,110 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+111,111 - 446 Kingscourt Dr.,111 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+112,112 - 446 Kingscourt Dr.,112 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+201,201 - 446 Kingscourt Dr.,201 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+202,202 - 446 Kingscourt Dr.,202 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+203,203 - 446 Kingscourt Dr.,203 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+204,204 - 446 Kingscourt Dr.,204 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+205,205 - 446 Kingscourt Dr.,205 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+206,206 - 446 Kingscourt Dr.,206 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+207,207 - 446 Kingscourt Dr.,207 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+208,208 - 446 Kingscourt Dr.,208 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+209,209 - 446 Kingscourt Dr.,209 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+210,210 - 446 Kingscourt Dr.,210 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+211,211 - 446 Kingscourt Dr.,211 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+212,212 - 446 Kingscourt Dr.,212 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+213,213 - 446 Kingscourt Dr.,213 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+214,214 - 446 Kingscourt Dr.,214 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+215,215 - 446 Kingscourt Dr.,215 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+216,216 - 446 Kingscourt Dr.,216 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+301,301 - 446 Kingscourt Dr.,301 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+302,302 - 446 Kingscourt Dr.,302 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+303,303 - 446 Kingscourt Dr.,303 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+304,304 - 446 Kingscourt Dr.,304 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+305,305 - 446 Kingscourt Dr.,305 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+306,306 - 446 Kingscourt Dr.,306 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+307,307 - 446 Kingscourt Dr.,307 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+308,308 - 446 Kingscourt Dr.,308 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+309,309 - 446 Kingscourt Dr.,309 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+310,310 - 446 Kingscourt Dr.,310 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+311,311 - 446 Kingscourt Dr.,311 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+312,312 - 446 Kingscourt Dr.,312 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+313,313 - 446 Kingscourt Dr.,313 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+314,314 - 446 Kingscourt Dr.,314 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+315,315 - 446 Kingscourt Dr.,315 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+316,316 - 446 Kingscourt Dr.,316 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+1,  1 - 436 Kingscourt Dr.,  1 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+2,  2 - 436 Kingscourt Dr.,  2 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+3,  3 - 436 Kingscourt Dr.,  3 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+4,  4 - 436 Kingscourt Dr.,  4 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+5,  5 - 436 Kingscourt Dr.,  5 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+6,  6 - 436 Kingscourt Dr.,  6 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+7,  7 - 436 Kingscourt Dr.,  7 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+8,  8 - 436 Kingscourt Dr.,  8 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+9,  9 - 436 Kingscourt Dr.,  9 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+10, 10 - 436 Kingscourt Dr., 10 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+11, 11 - 436 Kingscourt Dr., 11 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+12, 12 - 436 Kingscourt Dr., 12 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+13, 13 - 436 Kingscourt Dr., 13 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+14, 14 - 436 Kingscourt Dr., 14 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+14, 14 - 436 Kingscourt Dr., 14 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+14, 14 - 436 Kingscourt Dr., 14 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+15, 15 - 436 Kingscourt Dr., 15 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+16, 16 - 436 Kingscourt Dr., 16 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+16, 16 - 436 Kingscourt Dr., 16 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+17, 17 - 436 Kingscourt Dr., 17 - 436 Kingscourt Dr. Waterloo N3K 3R8,$810.00,2 Bed Townhouse,,1,2022-01-10,2022-01-10
+18, 18 - 436 Kingscourt Dr., 18 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+19, 19 - 436 Kingscourt Dr., 19 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+20, 20 - 436 Kingscourt Dr., 20 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+21, 21 - 436 Kingscourt Dr., 21 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+22, 22 - 436 Kingscourt Dr., 22 - 436 Kingscourt Dr. Waterloo N3K 3R8,$810.00,2 Bed Townhouse,,1,2022-01-10,2022-01-10
+22, 22 - 436 Kingscourt Dr., 22 - 436 Kingscourt Dr. Waterloo N3K 3R8,$810.00,2 Bed Townhouse,,1,2022-01-10,2022-01-10
+23, 23 - 436 Kingscourt Dr., 23 - 436 Kingscourt Dr. Waterloo N3K 3R8,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+24, 24 - 436 Kingscourt Dr., 24 - 436 Kingscourt Dr. Waterloo N3K 3R8,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+25, 25 - 456 Kingscourt Dr., 25 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+26, 26 - 456 Kingscourt Dr., 26 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+26, 26 - 456 Kingscourt Dr., 26 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+27, 27 - 456 Kingscourt Dr., 27 - 456 Kingscourt Dr. Waterloo  ,$810.00,2 Bed Townhouse,,1,2022-01-10,2022-01-10
+28, 28 - 456 Kingscourt Dr., 28 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+29, 29 - 456 Kingscourt Dr., 29 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+30, 30 - 456 Kingscourt Dr., 30 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+30, 30 - 456 Kingscourt Dr., 30 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+31, 31 - 456 Kingscourt Dr., 31 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+32, 32 - 456 Kingscourt Dr., 32 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+33, 33 - 456 Kingscourt Dr., 33 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+34, 34 - 456 Kingscourt Dr., 34 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+35, 35 - 456 Kingscourt Dr., 35 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+36, 36 - 456 Kingscourt Dr., 36 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+37, 37 - 456 Kingscourt Dr., 37 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+38, 38 - 456 Kingscourt Dr., 38 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+38, 38 - 456 Kingscourt Dr., 38 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+39, 39 - 456 Kingscourt Dr., 39 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+40, 40 - 456 Kingscourt Dr., 40 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+40, 40 - 456 Kingscourt Dr., 40 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+41, 41 - 456 Kingscourt Dr., 41 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+42, 42 - 456 Kingscourt Dr., 42 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+43, 43 - 456 Kingscourt Dr., 43 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+43, 43 - 456 Kingscourt Dr., 43 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+44, 44 - 456 Kingscourt Dr., 44 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+45, 45 - 456 Kingscourt Dr., 45 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+46, 46 - 456 Kingscourt Dr., 46 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+101,101 - 456 Kingscourt Dr.,101 - 456 Kingscourt Dr. Waterloo  ,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+102,102 - 456 Kingscourt Dr.,102 - 456 Kingscourt Dr. Waterloo  ,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+103,103 - 456 Kingscourt Dr.,103 - 456 Kingscourt Dr. Waterloo  ,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+104,104 - 446 Kingscourt Dr.,104 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+105,105 - 446 Kingscourt Dr.,105 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+106,106 - 446 Kingscourt Dr.,106 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+107,107 - 446 Kingscourt Dr.,107 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+108,108 - 446 Kingscourt Dr.,108 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+109,109 - 446 Kingscourt Dr.,109 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+110,110 - 446 Kingscourt Dr.,110 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+111,111 - 446 Kingscourt Dr.,111 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+112,112 - 446 Kingscourt Dr.,112 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+201,201 - 446 Kingscourt Dr.,201 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+202,202 - 446 Kingscourt Dr.,202 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+203,203 - 446 Kingscourt Dr.,203 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+204,204 - 446 Kingscourt Dr.,204 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+205,205 - 446 Kingscourt Dr.,205 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+206,206 - 446 Kingscourt Dr.,206 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+207,207 - 446 Kingscourt Dr.,207 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+208,208 - 446 Kingscourt Dr.,208 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+209,209 - 446 Kingscourt Dr.,209 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+210,210 - 446 Kingscourt Dr.,210 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+211,211 - 446 Kingscourt Dr.,211 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+212,212 - 446 Kingscourt Dr.,212 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+213,213 - 446 Kingscourt Dr.,213 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+214,214 - 446 Kingscourt Dr.,214 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+215,215 - 446 Kingscourt Dr.,215 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+216,216 - 446 Kingscourt Dr.,216 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+301,301 - 446 Kingscourt Dr.,301 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+302,302 - 446 Kingscourt Dr.,302 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+303,303 - 446 Kingscourt Dr.,303 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+304,304 - 446 Kingscourt Dr.,304 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+305,305 - 446 Kingscourt Dr.,305 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+306,306 - 446 Kingscourt Dr.,306 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+307,307 - 446 Kingscourt Dr.,307 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+308,308 - 446 Kingscourt Dr.,308 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+309,309 - 446 Kingscourt Dr.,309 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+310,310 - 446 Kingscourt Dr.,310 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+311,311 - 446 Kingscourt Dr.,311 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+312,312 - 446 Kingscourt Dr.,312 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+313,313 - 446 Kingscourt Dr.,313 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+314,314 - 446 Kingscourt Dr.,314 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+315,315 - 446 Kingscourt Dr.,315 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+316,316 - 446 Kingscourt Dr.,316 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+1,  1 - 436 Kingscourt Dr.,  1 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+2,  2 - 436 Kingscourt Dr.,  2 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+3,  3 - 436 Kingscourt Dr.,  3 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+4,  4 - 436 Kingscourt Dr.,  4 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+5,  5 - 436 Kingscourt Dr.,  5 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+6,  6 - 436 Kingscourt Dr.,  6 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+7,  7 - 436 Kingscourt Dr.,  7 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+8,  8 - 436 Kingscourt Dr.,  8 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+9,  9 - 436 Kingscourt Dr.,  9 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+10, 10 - 436 Kingscourt Dr., 10 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+11, 11 - 436 Kingscourt Dr., 11 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+12, 12 - 436 Kingscourt Dr., 12 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+13, 13 - 436 Kingscourt Dr., 13 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+14, 14 - 436 Kingscourt Dr., 14 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+14, 14 - 436 Kingscourt Dr., 14 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+14, 14 - 436 Kingscourt Dr., 14 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+15, 15 - 436 Kingscourt Dr., 15 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+16, 16 - 436 Kingscourt Dr., 16 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+16, 16 - 436 Kingscourt Dr., 16 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+17, 17 - 436 Kingscourt Dr., 17 - 436 Kingscourt Dr. Waterloo N3K 3R8,$810.00,2 Bed Townhouse,,1,2022-01-10,2022-01-10
+18, 18 - 436 Kingscourt Dr., 18 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+19, 19 - 436 Kingscourt Dr., 19 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+20, 20 - 436 Kingscourt Dr., 20 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+21, 21 - 436 Kingscourt Dr., 21 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+22, 22 - 436 Kingscourt Dr., 22 - 436 Kingscourt Dr. Waterloo N3K 3R8,$810.00,2 Bed Townhouse,,1,2022-01-10,2022-01-10
+22, 22 - 436 Kingscourt Dr., 22 - 436 Kingscourt Dr. Waterloo N3K 3R8,$810.00,2 Bed Townhouse,,1,2022-01-10,2022-01-10
+23, 23 - 436 Kingscourt Dr., 23 - 436 Kingscourt Dr. Waterloo N3K 3R8,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+24, 24 - 436 Kingscourt Dr., 24 - 436 Kingscourt Dr. Waterloo N3K 3R8,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+25, 25 - 456 Kingscourt Dr., 25 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+26, 26 - 456 Kingscourt Dr., 26 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+26, 26 - 456 Kingscourt Dr., 26 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+27, 27 - 456 Kingscourt Dr., 27 - 456 Kingscourt Dr. Waterloo  ,$810.00,2 Bed Townhouse,,1,2022-01-10,2022-01-10
+28, 28 - 456 Kingscourt Dr., 28 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+29, 29 - 456 Kingscourt Dr., 29 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+30, 30 - 456 Kingscourt Dr., 30 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+30, 30 - 456 Kingscourt Dr., 30 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+31, 31 - 456 Kingscourt Dr., 31 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+32, 32 - 456 Kingscourt Dr., 32 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+33, 33 - 456 Kingscourt Dr., 33 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+34, 34 - 456 Kingscourt Dr., 34 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+35, 35 - 456 Kingscourt Dr., 35 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+36, 36 - 456 Kingscourt Dr., 36 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+37, 37 - 456 Kingscourt Dr., 37 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+38, 38 - 456 Kingscourt Dr., 38 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+38, 38 - 456 Kingscourt Dr., 38 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+39, 39 - 456 Kingscourt Dr., 39 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+40, 40 - 456 Kingscourt Dr., 40 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+40, 40 - 456 Kingscourt Dr., 40 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+41, 41 - 456 Kingscourt Dr., 41 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+42, 42 - 456 Kingscourt Dr., 42 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+43, 43 - 456 Kingscourt Dr., 43 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+43, 43 - 456 Kingscourt Dr., 43 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+44, 44 - 456 Kingscourt Dr., 44 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+45, 45 - 456 Kingscourt Dr., 45 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+46, 46 - 456 Kingscourt Dr., 46 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+101,101 - 456 Kingscourt Dr.,101 - 456 Kingscourt Dr. Waterloo  ,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+102,102 - 456 Kingscourt Dr.,102 - 456 Kingscourt Dr. Waterloo  ,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+103,103 - 456 Kingscourt Dr.,103 - 456 Kingscourt Dr. Waterloo  ,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+104,104 - 446 Kingscourt Dr.,104 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+105,105 - 446 Kingscourt Dr.,105 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+106,106 - 446 Kingscourt Dr.,106 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+107,107 - 446 Kingscourt Dr.,107 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+108,108 - 446 Kingscourt Dr.,108 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+109,109 - 446 Kingscourt Dr.,109 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+110,110 - 446 Kingscourt Dr.,110 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+111,111 - 446 Kingscourt Dr.,111 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+112,112 - 446 Kingscourt Dr.,112 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+201,201 - 446 Kingscourt Dr.,201 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+202,202 - 446 Kingscourt Dr.,202 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+203,203 - 446 Kingscourt Dr.,203 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+204,204 - 446 Kingscourt Dr.,204 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+205,205 - 446 Kingscourt Dr.,205 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+206,206 - 446 Kingscourt Dr.,206 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+207,207 - 446 Kingscourt Dr.,207 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+208,208 - 446 Kingscourt Dr.,208 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+209,209 - 446 Kingscourt Dr.,209 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+210,210 - 446 Kingscourt Dr.,210 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+211,211 - 446 Kingscourt Dr.,211 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+212,212 - 446 Kingscourt Dr.,212 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+213,213 - 446 Kingscourt Dr.,213 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+214,214 - 446 Kingscourt Dr.,214 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+215,215 - 446 Kingscourt Dr.,215 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+216,216 - 446 Kingscourt Dr.,216 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+301,301 - 446 Kingscourt Dr.,301 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+302,302 - 446 Kingscourt Dr.,302 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+303,303 - 446 Kingscourt Dr.,303 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+304,304 - 446 Kingscourt Dr.,304 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+305,305 - 446 Kingscourt Dr.,305 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+306,306 - 446 Kingscourt Dr.,306 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+307,307 - 446 Kingscourt Dr.,307 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+308,308 - 446 Kingscourt Dr.,308 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+309,309 - 446 Kingscourt Dr.,309 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+310,310 - 446 Kingscourt Dr.,310 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+311,311 - 446 Kingscourt Dr.,311 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+312,312 - 446 Kingscourt Dr.,312 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+313,313 - 446 Kingscourt Dr.,313 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+314,314 - 446 Kingscourt Dr.,314 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+315,315 - 446 Kingscourt Dr.,315 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+316,316 - 446 Kingscourt Dr.,316 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+1,  1 - 436 Kingscourt Dr.,  1 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+2,  2 - 436 Kingscourt Dr.,  2 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+3,  3 - 436 Kingscourt Dr.,  3 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+4,  4 - 436 Kingscourt Dr.,  4 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+5,  5 - 436 Kingscourt Dr.,  5 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+6,  6 - 436 Kingscourt Dr.,  6 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+7,  7 - 436 Kingscourt Dr.,  7 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+8,  8 - 436 Kingscourt Dr.,  8 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+9,  9 - 436 Kingscourt Dr.,  9 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+10, 10 - 436 Kingscourt Dr., 10 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+11, 11 - 436 Kingscourt Dr., 11 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+12, 12 - 436 Kingscourt Dr., 12 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+13, 13 - 436 Kingscourt Dr., 13 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+14, 14 - 436 Kingscourt Dr., 14 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+14, 14 - 436 Kingscourt Dr., 14 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+14, 14 - 436 Kingscourt Dr., 14 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+15, 15 - 436 Kingscourt Dr., 15 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+16, 16 - 436 Kingscourt Dr., 16 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+16, 16 - 436 Kingscourt Dr., 16 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+17, 17 - 436 Kingscourt Dr., 17 - 436 Kingscourt Dr. Waterloo N3K 3R8,$810.00,2 Bed Townhouse,,1,2022-01-10,2022-01-10
+18, 18 - 436 Kingscourt Dr., 18 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+19, 19 - 436 Kingscourt Dr., 19 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+20, 20 - 436 Kingscourt Dr., 20 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+21, 21 - 436 Kingscourt Dr., 21 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+22, 22 - 436 Kingscourt Dr., 22 - 436 Kingscourt Dr. Waterloo N3K 3R8,$810.00,2 Bed Townhouse,,1,2022-01-10,2022-01-10
+22, 22 - 436 Kingscourt Dr., 22 - 436 Kingscourt Dr. Waterloo N3K 3R8,$810.00,2 Bed Townhouse,,1,2022-01-10,2022-01-10
+23, 23 - 436 Kingscourt Dr., 23 - 436 Kingscourt Dr. Waterloo N3K 3R8,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+24, 24 - 436 Kingscourt Dr., 24 - 436 Kingscourt Dr. Waterloo N3K 3R8,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+25, 25 - 456 Kingscourt Dr., 25 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+26, 26 - 456 Kingscourt Dr., 26 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+26, 26 - 456 Kingscourt Dr., 26 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+27, 27 - 456 Kingscourt Dr., 27 - 456 Kingscourt Dr. Waterloo  ,$810.00,2 Bed Townhouse,,1,2022-01-10,2022-01-10
+28, 28 - 456 Kingscourt Dr., 28 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+29, 29 - 456 Kingscourt Dr., 29 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+30, 30 - 456 Kingscourt Dr., 30 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+30, 30 - 456 Kingscourt Dr., 30 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+31, 31 - 456 Kingscourt Dr., 31 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+32, 32 - 456 Kingscourt Dr., 32 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+33, 33 - 456 Kingscourt Dr., 33 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+34, 34 - 456 Kingscourt Dr., 34 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+35, 35 - 456 Kingscourt Dr., 35 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+36, 36 - 456 Kingscourt Dr., 36 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+37, 37 - 456 Kingscourt Dr., 37 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+38, 38 - 456 Kingscourt Dr., 38 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+38, 38 - 456 Kingscourt Dr., 38 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+39, 39 - 456 Kingscourt Dr., 39 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+40, 40 - 456 Kingscourt Dr., 40 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+40, 40 - 456 Kingscourt Dr., 40 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+41, 41 - 456 Kingscourt Dr., 41 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+42, 42 - 456 Kingscourt Dr., 42 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+43, 43 - 456 Kingscourt Dr., 43 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+43, 43 - 456 Kingscourt Dr., 43 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+44, 44 - 456 Kingscourt Dr., 44 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+45, 45 - 456 Kingscourt Dr., 45 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+46, 46 - 456 Kingscourt Dr., 46 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+101,101 - 456 Kingscourt Dr.,101 - 456 Kingscourt Dr. Waterloo  ,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+102,102 - 456 Kingscourt Dr.,102 - 456 Kingscourt Dr. Waterloo  ,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+103,103 - 456 Kingscourt Dr.,103 - 456 Kingscourt Dr. Waterloo  ,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+104,104 - 446 Kingscourt Dr.,104 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+105,105 - 446 Kingscourt Dr.,105 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+106,106 - 446 Kingscourt Dr.,106 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+107,107 - 446 Kingscourt Dr.,107 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+108,108 - 446 Kingscourt Dr.,108 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+109,109 - 446 Kingscourt Dr.,109 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+110,110 - 446 Kingscourt Dr.,110 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+111,111 - 446 Kingscourt Dr.,111 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+112,112 - 446 Kingscourt Dr.,112 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+201,201 - 446 Kingscourt Dr.,201 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+202,202 - 446 Kingscourt Dr.,202 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+203,203 - 446 Kingscourt Dr.,203 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+204,204 - 446 Kingscourt Dr.,204 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+205,205 - 446 Kingscourt Dr.,205 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+206,206 - 446 Kingscourt Dr.,206 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+207,207 - 446 Kingscourt Dr.,207 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+208,208 - 446 Kingscourt Dr.,208 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+209,209 - 446 Kingscourt Dr.,209 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+210,210 - 446 Kingscourt Dr.,210 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+211,211 - 446 Kingscourt Dr.,211 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+212,212 - 446 Kingscourt Dr.,212 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+213,213 - 446 Kingscourt Dr.,213 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+214,214 - 446 Kingscourt Dr.,214 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+215,215 - 446 Kingscourt Dr.,215 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+216,216 - 446 Kingscourt Dr.,216 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+301,301 - 446 Kingscourt Dr.,301 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+302,302 - 446 Kingscourt Dr.,302 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+303,303 - 446 Kingscourt Dr.,303 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+304,304 - 446 Kingscourt Dr.,304 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+305,305 - 446 Kingscourt Dr.,305 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+306,306 - 446 Kingscourt Dr.,306 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+307,307 - 446 Kingscourt Dr.,307 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+308,308 - 446 Kingscourt Dr.,308 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+309,309 - 446 Kingscourt Dr.,309 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+310,310 - 446 Kingscourt Dr.,310 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+311,311 - 446 Kingscourt Dr.,311 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+312,312 - 446 Kingscourt Dr.,312 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+313,313 - 446 Kingscourt Dr.,313 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+314,314 - 446 Kingscourt Dr.,314 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+315,315 - 446 Kingscourt Dr.,315 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+316,316 - 446 Kingscourt Dr.,316 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+1,  1 - 436 Kingscourt Dr.,  1 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+2,  2 - 436 Kingscourt Dr.,  2 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+3,  3 - 436 Kingscourt Dr.,  3 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+4,  4 - 436 Kingscourt Dr.,  4 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+5,  5 - 436 Kingscourt Dr.,  5 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+6,  6 - 436 Kingscourt Dr.,  6 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+7,  7 - 436 Kingscourt Dr.,  7 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+8,  8 - 436 Kingscourt Dr.,  8 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+9,  9 - 436 Kingscourt Dr.,  9 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+10, 10 - 436 Kingscourt Dr., 10 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+11, 11 - 436 Kingscourt Dr., 11 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+12, 12 - 436 Kingscourt Dr., 12 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+13, 13 - 436 Kingscourt Dr., 13 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+14, 14 - 436 Kingscourt Dr., 14 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+14, 14 - 436 Kingscourt Dr., 14 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+14, 14 - 436 Kingscourt Dr., 14 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+15, 15 - 436 Kingscourt Dr., 15 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+16, 16 - 436 Kingscourt Dr., 16 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+16, 16 - 436 Kingscourt Dr., 16 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+17, 17 - 436 Kingscourt Dr., 17 - 436 Kingscourt Dr. Waterloo N3K 3R8,$810.00,2 Bed Townhouse,,1,2022-01-10,2022-01-10
+18, 18 - 436 Kingscourt Dr., 18 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+19, 19 - 436 Kingscourt Dr., 19 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+20, 20 - 436 Kingscourt Dr., 20 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+21, 21 - 436 Kingscourt Dr., 21 - 436 Kingscourt Dr. Waterloo N3K 3R8,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+22, 22 - 436 Kingscourt Dr., 22 - 436 Kingscourt Dr. Waterloo N3K 3R8,$810.00,2 Bed Townhouse,,1,2022-01-10,2022-01-10
+22, 22 - 436 Kingscourt Dr., 22 - 436 Kingscourt Dr. Waterloo N3K 3R8,$810.00,2 Bed Townhouse,,1,2022-01-10,2022-01-10
+23, 23 - 436 Kingscourt Dr., 23 - 436 Kingscourt Dr. Waterloo N3K 3R8,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+24, 24 - 436 Kingscourt Dr., 24 - 436 Kingscourt Dr. Waterloo N3K 3R8,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+25, 25 - 456 Kingscourt Dr., 25 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+26, 26 - 456 Kingscourt Dr., 26 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+26, 26 - 456 Kingscourt Dr., 26 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+27, 27 - 456 Kingscourt Dr., 27 - 456 Kingscourt Dr. Waterloo  ,$810.00,2 Bed Townhouse,,1,2022-01-10,2022-01-10
+28, 28 - 456 Kingscourt Dr., 28 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+29, 29 - 456 Kingscourt Dr., 29 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+30, 30 - 456 Kingscourt Dr., 30 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+30, 30 - 456 Kingscourt Dr., 30 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+31, 31 - 456 Kingscourt Dr., 31 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+32, 32 - 456 Kingscourt Dr., 32 - 456 Kingscourt Dr. Waterloo  ,$940.00,4 Bed Townhouse,,1,2022-01-10,2022-01-10
+33, 33 - 456 Kingscourt Dr., 33 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+34, 34 - 456 Kingscourt Dr., 34 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+35, 35 - 456 Kingscourt Dr., 35 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+36, 36 - 456 Kingscourt Dr., 36 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+37, 37 - 456 Kingscourt Dr., 37 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+38, 38 - 456 Kingscourt Dr., 38 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+38, 38 - 456 Kingscourt Dr., 38 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+39, 39 - 456 Kingscourt Dr., 39 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+40, 40 - 456 Kingscourt Dr., 40 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+40, 40 - 456 Kingscourt Dr., 40 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+41, 41 - 456 Kingscourt Dr., 41 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+42, 42 - 456 Kingscourt Dr., 42 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+43, 43 - 456 Kingscourt Dr., 43 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+43, 43 - 456 Kingscourt Dr., 43 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+44, 44 - 456 Kingscourt Dr., 44 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+45, 45 - 456 Kingscourt Dr., 45 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+46, 46 - 456 Kingscourt Dr., 46 - 456 Kingscourt Dr. Waterloo  ,$885.00,3 Bed Townhouse,,1,2022-01-10,2022-01-10
+101,101 - 456 Kingscourt Dr.,101 - 456 Kingscourt Dr. Waterloo  ,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+102,102 - 456 Kingscourt Dr.,102 - 456 Kingscourt Dr. Waterloo  ,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+103,103 - 456 Kingscourt Dr.,103 - 456 Kingscourt Dr. Waterloo  ,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+104,104 - 446 Kingscourt Dr.,104 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+105,105 - 446 Kingscourt Dr.,105 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+106,106 - 446 Kingscourt Dr.,106 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+107,107 - 446 Kingscourt Dr.,107 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+108,108 - 446 Kingscourt Dr.,108 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+109,109 - 446 Kingscourt Dr.,109 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+110,110 - 446 Kingscourt Dr.,110 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+111,111 - 446 Kingscourt Dr.,111 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+112,112 - 446 Kingscourt Dr.,112 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+201,201 - 446 Kingscourt Dr.,201 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+202,202 - 446 Kingscourt Dr.,202 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+203,203 - 446 Kingscourt Dr.,203 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+204,204 - 446 Kingscourt Dr.,204 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+205,205 - 446 Kingscourt Dr.,205 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+206,206 - 446 Kingscourt Dr.,206 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+207,207 - 446 Kingscourt Dr.,207 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+208,208 - 446 Kingscourt Dr.,208 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+209,209 - 446 Kingscourt Dr.,209 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+210,210 - 446 Kingscourt Dr.,210 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+211,211 - 446 Kingscourt Dr.,211 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+212,212 - 446 Kingscourt Dr.,212 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+213,213 - 446 Kingscourt Dr.,213 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+214,214 - 446 Kingscourt Dr.,214 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+215,215 - 446 Kingscourt Dr.,215 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+216,216 - 446 Kingscourt Dr.,216 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+301,301 - 446 Kingscourt Dr.,301 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+302,302 - 446 Kingscourt Dr.,302 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+303,303 - 446 Kingscourt Dr.,303 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+304,304 - 446 Kingscourt Dr.,304 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+305,305 - 446 Kingscourt Dr.,305 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+306,306 - 446 Kingscourt Dr.,306 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+307,307 - 446 Kingscourt Dr.,307 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+308,308 - 446 Kingscourt Dr.,308 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+309,309 - 446 Kingscourt Dr.,309 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+310,310 - 446 Kingscourt Dr.,310 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+311,311 - 446 Kingscourt Dr.,311 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+312,312 - 446 Kingscourt Dr.,312 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+313,313 - 446 Kingscourt Dr.,313 - 446 Kingscourt Dr. Waterloo N3K 3R9,$630.00,1 Bed Apartment,,1,2022-01-10,2022-01-10
+314,314 - 446 Kingscourt Dr.,314 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+315,315 - 446 Kingscourt Dr.,315 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
+316,316 - 446 Kingscourt Dr.,316 - 446 Kingscourt Dr. Waterloo N3K 3R9,$695.00,2 Bed Apartment,,1,2022-01-10,2022-01-10
