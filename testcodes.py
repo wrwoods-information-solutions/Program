@@ -256,7 +256,7 @@ class Blank(QFrame):
 """
     class to display home
 
-"""
+GIT"""
 
 class Home(QFrame):
 
@@ -271,7 +271,7 @@ class Home(QFrame):
         font.setPointSize(40)
         HCCalculator.setFont(font)
         HCCalculator.setAlignment(QtCore.Qt.AlignCenter)
-        HCCalculator.setText('Housing Charge Calcularor')
+        HCCalculator.setText('Housing Charge Calculator')
         HCCalculator.setObjectName("HCCalculator")
     
     
