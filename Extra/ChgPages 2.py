@@ -6,7 +6,7 @@ Created on Sat Nov 20 16:52:19 2021
 """
 
 from PyQt5 import QtGui
-from PyQt5.QtWidgets import QApplication,QMainWindow,QWidget,QAction,QFrame,QLabel,QLineEdit
+from PyQt5.QtWidgets import QApplication,QMainWindow,QWidget,QAction,QFrame,QLabel,QLineEdit,QStackedWidget
 
 
 class MainWindow(QMainWindow):

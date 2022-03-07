@@ -17,7 +17,7 @@ import matplotlib
 matplotlib.use('TkAgg')
 import matplotlib.animation as animation
 import matplotlib.dates as mdates
-from matplotlib.finance import candlestick_ohlc
+#from matplotlib.finance import candlestick_ohlc
 from matplotlib import pyplot as plt
 from matplotlib import style
 import matplotlib.ticker as mticker
