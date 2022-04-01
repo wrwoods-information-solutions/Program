@@ -7,12 +7,21 @@ Version:  0.0.0
 """
 import sys
 import logging
-from PyQt5 import QtCore, QtWidgets, QtGui
-from PyQt5.QtWidgets import QApplication, QMainWindow, QAction,QFrame
-from PyQt5.QtGui import QIcon
+from PyQt5 import QtCore , QtGui, QtWidgets 
+from PyQt5.QtWidgets import QApplication,QMainWindow, QStackedWidget, QVBoxLayout, QGridLayout, QWidget, QAction, QLabel,QComboBox,QLineEdit,QSpinBox, QPushButton,QHBoxLayout,QMenuBar
+from PyQt5.QtGui import QIcon,QFont,QPixmap,QIntValidator
+from PyQt5.QtCore import QRect,Qt
 import csv
 import os.path
 from datetime  import date
+import vars
+
+TITLE_FONT = QFont("Garmond", 20)
+NORMAL_FONT = QFont("Garmond", 14)
+LARGE_FONT = QFont("Garmond", 16)
+SMALL_FONT = QFont("Garmond", 8)
+TINY_FONT = QFont("Garmond", 8)
+
 # Create a custom logger
 logging.basicConfig(level=logging.DEBUG)
 wrwislog = logging.getLogger(__name__)
@@ -59,250 +68,179 @@ def  loadcsv(file):
     else:
             wrwislog.warning('%s.csv does not exist',file)
 
-"""
-    class to display blank frame
+class Blank(QWidget):
+    def __init__(self):
+        """
+            class to display Blank
 
-"""
-
-class Blank(QFrame):
-
-    def __init__(self, parent, controller):
-        QFrame.__init__(self, parent)            
+        """
+        super().__init__()
         wrwislog.debug('inside Blank')
-        HCCalculator = QtWidgets.QLabel(controller)
-        HCCalculator.setGeometry(QtCore.QRect(560, 220, 800, 100))
-        font = QtGui.QFont()
-        font.setFamily("Garamond")
-        font.setPointSize(40)
-        HCCalculator.setFont(font)
-        HCCalculator.setAlignment(QtCore.Qt.AlignCenter)
-        HCCalculator.setText(' ')
-        HCCalculator.setObjectName("HCCalculator")
+        layout = QGridLayout()
+        
+        # Add widgets to the blank
 
-"""
-    class to display home
+        layout.addWidget(QLabel(' '),0,0)
 
-"""
+        # Set the layout on the application's window
 
-class Home(QFrame):
-
-    def __init__(self, parent, controller):
-        QFrame.__init__(self, parent)            
-        wrwislog.debug('inside Home')
-        HCCalculator = QtWidgets.QLabel(controller)
-        HCCalculator.setGeometry(QtCore.QRect(560, 220, 800, 100))
-        font = QtGui.QFont()
-        font.setFamily("Garamond")
-        font.setPointSize(40)
-        HCCalculator.setFont(font)
-        HCCalculator.setAlignment(QtCore.Qt.AlignCenter)
-        HCCalculator.setText('Housing Charge Calcularor')
-        HCCalculator.setObjectName("HCCalculator")
-    
-    
-        ontversion = QtWidgets.QLabel(controller)
-        ontversion.setGeometry(QtCore.QRect(600, 400, 561, 50))
-        font = QtGui.QFont()
-        font.setFamily("Garamond")
-        font.setPointSize(40)
-        ontversion.setFont(font)
-        ontversion.setAlignment(QtCore.Qt.AlignCenter)
-        ontversion.setText("Ontario Version")
-        ontversion.setObjectName("ontversion")
-    
-        versiondate = QtWidgets.QLabel(controller)
-        versiondate.setGeometry(QtCore.QRect(600, 500, 561, 50))
-        font = QtGui.QFont()
-        font.setFamily("Garamond")
-        font.setPointSize(25)
-        versiondate.setFont(font)
-        versiondate.setAlignment(QtCore.Qt.AlignCenter)
-        versiondate.setText("Version 1.0.0")
-        versiondate.setObjectName("versiondate")
-    
-        logo = QtWidgets.QLabel(controller)
-        logo.setGeometry(QtCore.QRect(800, 600, 100, 100))
-        logo.setText("")
-        logo.setPixmap(QtGui.QPixmap("Images/site_logo.gif"))
-        logo.setScaledContents(True)
-        logo.setObjectName("logo")
-    
-        lbltop = QtWidgets.QLabel(controller)
-        lbltop.setGeometry(QtCore.QRect(900, 600, 481, 14))
-        font = QtGui.QFont()
-        font.setFamily("Garamond")
-        font.setBold(True)
-        font.setWeight(75)
-        lbltop.setFont(font)
-        lbltop.setText("WRWoods Infornation")
-        lbltop.setObjectName("lbltop")
-    
-        lblbtm = QtWidgets.QLabel(controller)
-        lblbtm.setGeometry(QtCore.QRect(900, 680, 481, 14))
-        font = QtGui.QFont()
-        font.setFamily("Garamond")
-        font.setBold(True)
-        font.setWeight(75)
-        lblbtm.setFont(font)
-        lblbtm.setText("Solutions Inc.")
-        lblbtm.setObjectName("lblbtm")
-        lbladr1 = QtWidgets.QLabel(controller)
-        lbladr1.setGeometry(QtCore.QRect(900, 700, 481, 14))
-        font = QtGui.QFont()
-        font.setFamily("Garamond")
-        font.setBold(True)
-        font.setWeight(75)
-        lbladr1.setFont(font)
-        lbladr1.setText("22-456 Kingscourt Drive")
-        lbladr1.setObjectName("lbladr1")
-        lbladr2 = QtWidgets.QLabel(controller)
-        lbladr2.setGeometry(QtCore.QRect(900, 720, 481, 14))
-        font = QtGui.QFont()
-        font.setFamily("Garamond")
-        font.setBold(True)
-        font.setWeight(75)
-        lbladr2.setFont(font)
-        lbladr2.setText("Waterloo On N2K 3S1")
-        lbladr2.setObjectName("lbladr2")
-        lbltel = QtWidgets.QLabel(controller)
-        lbltel.setGeometry(QtCore.QRect(900, 740, 481, 14))
-        font = QtGui.QFont()
-        font.setFamily("Garamond")
-        font.setBold(True)
-        font.setWeight(75)
-        lbltel.setFont(font)
-        lbltel.setText("519-886-6649")
-        lbltel.setObjectName("lbltel")
+        self.setLayout(layout) 
 
 
-class Settingeditor(QFrame):
+class Home(QWidget):
+        """
+            class to display home
+
+        """
+        def __init__(self):
+            super().__init__()
+            sys = loadcsv('system')
+            wrwislog.debug('inside Home')
+
+            # Create a QGridLayout instance
+
+            layout = QGridLayout()
+
+            # Add widgets to the home
+            
+            layout.addWidget(QLabel('Housing Charge Calculator',font=TITLE_FONT),0,3,1,1, Qt.AlignHCenter)
+            layout.addWidget(QLabel(vars.versionarea,font=LARGE_FONT),2,2,1,3, Qt.AlignHCenter)
+            layout.addWidget(QLabel('Verson No.:  ' + vars.version,font=LARGE_FONT),3,2,1,3, Qt.AlignHCenter)
+            im = QPixmap("Images/site_logo.gif")
+            label = QLabel()
+            label.setPixmap(im)
+            layout.addWidget(label,4,2,1,3, Qt.AlignHCenter)
+            layout.addWidget(QLabel("WRWoods Infornation",font=TINY_FONT),5,3,1,1, Qt.AlignRight)
+            layout.addWidget(QLabel("Solutions Inc.",font=TINY_FONT),5,3,1,1, Qt.AlignLeft)
+            layout.addWidget(QLabel("22-456 Kingscourt Drive",font=TINY_FONT),6,3,1,1, Qt.AlignLeft)
+            layout.addWidget(QLabel("Waterloo On N2K 3S1",font=TINY_FONT),7,3,1,1, Qt.AlignLeft)
+            layout.addWidget(QLabel("519-886-6649",font=TINY_FONT),8,3,1,1, Qt.AlignLeft)
+
+
+            # Set the home on the application's window
+
+            self.setLayout(layout)
+        
+
+class SettingEditor(QWidget): 
     """
-    class to set up of Setting Editor
+        class to display Setting Editor
 
     """
+    def __init__(self):
 
-    def __init__(self, parent, controller):
-        QFrame.__init__(self, parent)            
+        super().__init__()
         sys = loadcsv('system')
         wrwislog.debug('inside settingeditor')
-        lbltitle= QtWidgets.QLabel(controller)
-        lbltitle.setGeometry(QtCore.QRect(560, 220, 800, 100))
-        font = QtGui.QFont()
-        font.setFamily("Garamond")
-        font.setPointSize(18)
-        lbltitle.setFont(font)
-        lbltitle.setObjectName("lbltitle")
-        lbbaseelementl = QtWidgets.QLabel(controller)
-        lbbaseelementl.setGeometry(QtCore.QRect(50, 120, 130, 20))
-        font = QtGui.QFont()
-        font.setFamily("Garamond")
-        font.setPointSize(14)
-        lbbaseelementl.setFont(font)
-        lbbaseelementl.setObjectName("lbbaseelementl")
-        lblpostonscreen = QtWidgets.QLabel(controller)
-        lblpostonscreen.setGeometry(QtCore.QRect(204, 120, 210, 20))
-        font = QtGui.QFont()
-        font.setFamily("Garamond")
-        font.setPointSize(14)
-        lblpostonscreen.setFont(font)
-        lblpostonscreen.setObjectName("lblpostonscreen")
-        lblheight = QtWidgets.QLabel(controller)
-        lblheight.setGeometry(QtCore.QRect(210, 150, 66, 25))
-        font = QtGui.QFont()
-        font.setFamily("Garamond")
-        font.setPointSize(14)
-        lblheight.setFont(font)
-        lblheight.setObjectName("lblheight")
-        lblwidth = QtWidgets.QLabel(controller)
-        lblwidth.setGeometry(QtCore.QRect(351, 150, 66, 25))
-        font = QtGui.QFont()
-        font.setFamily("Garamond")
-        font.setPointSize(14)
-        lblwidth.setFont(font)
-        lblwidth.setObjectName("lblwidth")
-        lblelementnane = QtWidgets.QLabel(controller)
-        lblelementnane.setGeometry(QtCore.QRect(460, 120, 140, 20))
-        font = QtGui.QFont()
-        font.setFamily("Garamond")
-        font.setPointSize(14)
-        lblelementnane.setFont(font)
-        lblelementnane.setObjectName("lblelementnane")
-        lblniumberofitems = QtWidgets.QLabel(controller)
-        lblniumberofitems.setGeometry(QtCore.QRect(630, 120, 166, 20))
-        font = QtGui.QFont()
-        font.setFamily("Garamond")
-        font.setPointSize(14)
-        lblniumberofitems.setFont(font)
-        lblniumberofitems.setObjectName("lblniumberofitems")
-        cboxbaseelemwnt = QtWidgets.QComboBox(controller)
-        cboxbaseelemwnt.setGeometry(QtCore.QRect(50, 190, 124, 25))
-        font = QtGui.QFont()
-        font.setFamily("Garamond")
-        font.setPointSize(14)
-        cboxbaseelemwnt.setFont(font)
-        cboxbaseelemwnt.setObjectName("cboxbaseelemwnt")
-        leheight = QtWidgets.QLineEdit(controller)
-        leheight.setGeometry(QtCore.QRect(210, 190, 50, 25))
-        leheight.setObjectName("leheight")
-        lewidth = QtWidgets.QLineEdit(controller)
-        lewidth.setGeometry(QtCore.QRect(350, 190, 50, 25))
-        lewidth.setObjectName("lewidth")
-        leeementname = QtWidgets.QLineEdit(controller)
-        leeementname.setGeometry(QtCore.QRect(460, 190, 130, 25))
-        leeementname.setObjectName("leeementname")
-        lenunberofitems = QtWidgets.QLineEdit(controller)
-        lenunberofitems.setGeometry(QtCore.QRect(670, 190, 50, 25))
-        lenunberofitems.setObjectName("lenunberofitems")
-        leitem = QtWidgets.QLineEdit(controller)
-        leitem.setGeometry(QtCore.QRect(358, 364, 766, 25))
-        leitem.setObjectName("leitem")
-        lblitem = QtWidgets.QLabel(controller)
-        lblitem.setGeometry(QtCore.QRect(360, 360, 773, 25))
-        lblitem.setObjectName("lblitem")
-        btmedit = QtWidgets.QPushButton(controller)
-        btmedit.setGeometry(QtCore.QRect(1133, 360, 60, 26))
-        font = QtGui.QFont()
-        font.setFamily("Garamond")
-        font.setPointSize(14)
-        btmedit.setFont(font)
-        btmedit.setObjectName("btmedit")
-        btmadd = QtWidgets.QPushButton(controller)
-        btmadd.setGeometry(QtCore.QRect(1204, 363, 71, 26))
-        font = QtGui.QFont()
-        font.setFamily("Garamond")
-        font.setPointSize(14)
-        btmadd.setFont(font)
-        btmadd.setObjectName("btmadd")
-        btmdelete = QtWidgets.QPushButton(controller)
-        btmdelete.setGeometry(QtCore.QRect(1285, 363, 80, 26))
-        font = QtGui.QFont()
-        font.setFamily("Garamond")
-        font.setPointSize(14)
-        btmdelete.setFont(font)
-        btmdelete.setObjectName("btmdelete")
-        
-        
-class Uc(QFrame):
-    """
-    class to set up of under construction
+        self.setWindowTitle("Setting Editor")
 
-    """
+        # Create a QGridLayout instance
 
-    def __init__(self, parent, controller):
-        QFrame.__init__(self, parent)
+        layout = QGridLayout()
+
+        # Add widgets to the Settinged
+
+        layout.addWidget(QLabel('Setting Editor',font=TITLE_FONT),0,3,1,1, Qt.AlignHCenter)
+
+        layout.addWidget(QLabel('Base Element',font=NORMAL_FONT),1,0,1,1, Qt.AlignLeft)
+        cboxbaseelement = QComboBox()
+        cboxbaseelement.addItems(['ADD','system', 'codes', 'members', 'units', 'connect','DELETE'])
+        layout.addWidget(cboxbaseelement,3,0,Qt.AlignLeft)
+        
+        layout.addWidget(QLabel('Positon on the Screen',font=NORMAL_FONT),1,1,1,2, Qt.AlignLeft)
+        layout.addWidget(QLabel('Height',font=NORMAL_FONT),2,1,1,1, Qt.AlignLeft)
+        scnheight = QSpinBox()
+        scnheight.value = 0
+        scnheight.maximum = 965
+        scnheight.minimum = 0
+        scnheight.singleStep = 60
+        scnhno = scnheight.value
+        layout.addWidget(scnheight,3,1,Qt.AlignLeft)
+        layout.addWidget(QLabel('Width',font=NORMAL_FONT),2,2,1,1, Qt.AlignLeft)
+        scnwidth = QSpinBox()
+        scnwidth.value = 0
+        scnwidth.maximum = 1920
+        scnwidth.minimum = 0
+        scnwidth.singleStep = 60
+        scnwno = scnwidth.value
+        layout.addWidget(scnwidth,3,2,Qt.AlignLeft)
+
+        layout.addWidget(QLabel('Element Nane',font=NORMAL_FONT),1,3,1,1, Qt.AlignLeft)
+        elementname = QLineEdit()
+        layout.addWidget(elementname,3,3,Qt.AlignLeft)
+
+        layout.addWidget(QLabel('Number of Items',font=NORMAL_FONT),1,4,1,1, Qt.AlignLeft)
+        noofitems = QSpinBox()
+        noofitems.value = 1
+        noofitems.maximum = 99
+        noofitems.minimum = 1
+        noofitems.singleStep =1
+        noitem = noofitems.value
+        layout.addWidget(noofitems,3,4 ,Qt.AlignLeft)
+        layout.addWidget(QLabel('Item',font=NORMAL_FONT),4,1,Qt.AlignHCenter)
+    
+        try:
+            noofitems
+        except NameError:    
+            noofitems = 1
+        ln = 0
+        rowno = 6
+        outtext = []
+        btmedit = 'Edit'
+        btmadd = 'Add'
+        btmdelete = 'Delete'
+        for i in range(noitem):
+            item = QLineEdit()
+            outtext.append(item.text)
+            layout.addWidget(item,rowno,1,Qt.AlignHCenter)
+
+            btmedit = btmedit+str(rowno)
+            btmedit = QPushButton('Edit')
+            btmedit.clicked.connect(lambda:self.actionEdit(rowno))  
+            layout.addWidget(btmedit,rowno,3,Qt.AlignLeft)
+
+            btmadd = btmadd+str(rowno)
+            btmadd = QPushButton('Add')
+            btmadd.clicked.connect(lambda:self.actionAdd(rowno))  
+            layout.addWidget(btmadd,rowno,2,Qt.AlignHCenter)
+
+            btmdelete = btmdelete+str(rowno)
+            btmdelete = QPushButton('Delete')
+            btmdelete.clicked.connect(lambda:self.actionDelete(rowno))  
+            layout.addWidget(btmdelete,rowno,3,Qt.AlignRight)
+
+        # Set the Settinged on the application's window
+
+        self.setLayout(layout)
+
+    def actionEdit(rowno):
+        print('Edit pressed')
+
+    def actionAdd(rowno):
+        print('Add pressed')
+
+    def actionDelete(rowno):
+        print('Delete pressed')
+
+class Uc(QWidget):    
+    def __init__(self):
+        super().__init__()
         wrwislog.debug('inside UC')
-        imguc = QtWidgets.QLabel()
-        imguc.setGeometry(QtCore.QRect(0, 50, 791, 521))
-        font = QtGui.QFont()
-        font.setFamily("Garamond")
-        font.setPointSize(20)
-        imguc.setFont(font)
-        imguc.setFrameShape(QFrame.Box)
-        imguc.setText("")
-        imguc.setPixmap(QtGui.QPixmap("Images/UnderConstruction.gif"))
-        imguc.setScaledContents(True)
-        imguc.setAlignment(QtCore.Qt.AlignCenter)
-        imguc.setObjectName("imguc")
+
+        # Create a QGridLayout instance
+
+        layout = QGridLayout()
+
+        # Add widgets to the uc
+
+        layout.addWidget(QLabel("Under Construction",font=TITLE_FONT),0,3,1,1, Qt.AlignHCenter)
+        im = QPixmap("Images/UnderConstruction.gif")
+        label = QLabel()
+        label.setPixmap(im)
+        layout.addWidget(label,4,2,1,3, Qt.AlignHCenter)
+
+        # Set the uc on the application's window
+        self.setLayout(layout)
 
 class MainProg(QMainWindow):
     """
@@ -310,7 +248,7 @@ class MainProg(QMainWindow):
 
     """
     def __init__(self):
-        super().__init__()
+        super().__init__() 
         self.desktop = QApplication.desktop()
         self.screenRect = self.desktop.screenGeometry()
         self.height = self.screenRect.height() - 50 - 65
@@ -320,24 +258,14 @@ class MainProg(QMainWindow):
         self.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.setWindowTitle("Housing Charge Calculator")
         self.setWindowIcon(QIcon('Images/SCIcon.ico'))
-        container =  QtWidgets.QFrame(self)
-        self.frames = {}
-        for F in (Blank,Home, Settingeditor, Uc):
-             frame = F(container, self)
-             self.frames[F] = frame
-             self.setGeometry(QtCore.QRect(0, 100, self.width, self.height))
-
-
+        self.body = QStackedWidget (self)
+        self.body.addWidget (Blank())
+        self.body.addWidget (Home())
+        self.body.addWidget (SettingEditor())
+        self.body.addWidget (Uc())
         self.create_menu()
-        self.show_frame(Blank)
-        self.show_frame(Home)
-
-    def show_frame(self, cont):
-
-        frame = self.frames[cont]
-        frame.setFrameShadow(QFrame.Raised)
-
-
+        self.displayHome()        
+  
     def create_menu(self):
         """
 
@@ -373,6 +301,10 @@ class MainProg(QMainWindow):
         exitaction.triggered.connect(self.closeapp)
 
         settingmenu = mainmenu.addMenu("Setting")
+
+        initialize = QAction("Initialize", self)
+        settingmenu.addAction(initialize)
+        initialize.triggered.connect(self.init)
 
         settingeditor = QAction("Settung Editor", self)
         settingmenu.addAction(settingeditor)
@@ -427,8 +359,7 @@ class MainProg(QMainWindow):
         Function to call inputhc
 
         """
-        self.show_frame(Uc)
-
+        pass
 
         
     def outputhc(self):
@@ -437,8 +368,7 @@ class MainProg(QMainWindow):
         Function to call outputhc
 
         """
-        self.show_frame(Uc)
-
+        pass 
 
 
     def pdf(self):
@@ -447,8 +377,7 @@ class MainProg(QMainWindow):
         Function to call pdf
 
         """
-        self.show_frame(Uc)
-
+        pass 
 
 
     def printhc(self):
@@ -457,9 +386,16 @@ class MainProg(QMainWindow):
         Function to call printhc
 
         """
-        self.show_frame(Uc)
+        pass 
+    def init(self):
+        """
 
+        Function to call Initialize
 
+        """
+        wrwislog.debug('in Initialize')
+        self.displayUc()
+        pass
 
     def editor(self):
         """
@@ -468,7 +404,8 @@ class MainProg(QMainWindow):
 
         """
         wrwislog.debug('in editor')
-        self.show_frame(Settingeditor)
+        self.displaySettingEditor()
+        pass
 
 
     def members(self):
@@ -478,8 +415,8 @@ class MainProg(QMainWindow):
 
         """
         wrwislog.debug('in members')
-        self.show_frame(Uc)
-
+        self.displayUc()
+        pass 
 
 
     def units(self):
@@ -489,8 +426,8 @@ class MainProg(QMainWindow):
 
         """
         wrwislog.debug('in Units')
-        self.show_frame(Uc)
-
+        self.displayUc()
+        pass 
 
 
     def ratescale(self):
@@ -499,9 +436,9 @@ class MainProg(QMainWindow):
         Function to call ratescale
 
         """
-        wrwislog.debug('in ratescalw')
-        self.show_frame(Uc)
-
+        wrwislog.debug('in ratescale')
+        self.displayUc()
+        pass 
 
 
     def codes(self):
@@ -511,8 +448,8 @@ class MainProg(QMainWindow):
 
         """
         wrwislog.debug('in codes')
-        self.show_frame(Uc)
-
+        self.displayUc()
+        pass 
 
 
     def helphelp(self):
@@ -522,8 +459,8 @@ class MainProg(QMainWindow):
 
         """
         wrwislog.debug('in helphelp')
-        self.show_frame(Uc)
-
+        self.displayUc()
+        pass 
 
 
 
@@ -534,8 +471,8 @@ class MainProg(QMainWindow):
 
         """
         wrwislog.debug('in calendar')
-        self.show_frame(Uc)
-
+        self.displayUc()
+        pass 
 
 
 
@@ -546,10 +483,8 @@ class MainProg(QMainWindow):
 
        """
        wrwislog.debug('in overview')
-       self.show_frame(Uc)
-
-
-
+       self.displayUc()
+       pass 
 
     def inputhelp(self):
        """
@@ -558,9 +493,8 @@ class MainProg(QMainWindow):
 
        """
        wrwislog.debug('in imput help')
-       self.show_frame(Uc)
-
-
+       self.displayUc()
+       pass
 
     def outputhelp(self):
        """
@@ -568,10 +502,8 @@ class MainProg(QMainWindow):
           Function to call outputhelp
 
        """
-       self.show_frame(Uc)
-
-
-
+       self.displayUc()
+       pass
 
     def codeshelp(self):
        """
@@ -579,9 +511,8 @@ class MainProg(QMainWindow):
           Function to call codeshelp
 
        """
-       self.show_frame(Uc)
-
-
+       self.displayUc()
+       pass
 
     def closeapp(self):
         """
@@ -589,10 +520,22 @@ class MainProg(QMainWindow):
         Function to call close app
 
         """
-        self.close()
         quit()
 
 
+    def displayBlank(self,parent):
+
+      parent.body.setCurrentIndex(0)
+
+    def displayHome(self):
+      self.body.setCurrentIndex(1)
+
+    def displaySettingEditor(self):
+      self.body.setCurrentIndex(2)
+
+    def displayUc(self):
+
+      self.body.setCurrentIndex(3)
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

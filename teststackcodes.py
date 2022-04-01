@@ -9,19 +9,21 @@ Version:  0.0.0
 """
 #from shutil import move
 from ast import Str
+from inspect import currentframe
 import sys
 import logging
 from turtle import home
 from typing_extensions import Self
 # import rollerbar
 from PyQt5 import QtCore , QtGui, QtWidgets 
-from PyQt5.QtWidgets import QApplication,QMainWindow, QStackedWidget, QVBoxLayout, QGridLayout, QWidget, QAction, QLabel,QComboBox,QLineEdit, QPushButton,QHBoxLayout
-from PyQt5.QtGui import QIcon,QFont,QPixmap
-
+from PyQt5.QtWidgets import QApplication,QMainWindow, QStackedWidget, QVBoxLayout, QGridLayout, QWidget, QAction, QLabel,QComboBox,QLineEdit,QSpinBox, QPushButton,QHBoxLayout,QMenuBar
+from PyQt5.QtGui import QIcon,QFont,QPixmap,QIntValidator
 from PyQt5.QtCore import QRect,Qt
 import csv
 import os.path
 from datetime  import date
+
+from numpy import maximum, minimum
 import vars
 
 TITLE_FONT = QFont("Garmond", 20)
@@ -103,7 +105,7 @@ def savecsv(file, fldnames, content, datestamp: bool):
         if datestamp:
             if content['createdate'] == '':
                 content['createdate'] = date.today()
-            content['updatedate'] = date.today()
+                content['updatedate'] = date.today()
             writer = csv.DictWriter(csv_file, fieldnames=fldnames)
             writer.writerow(content)    
 
@@ -118,203 +120,31 @@ def updater(file):
     savecsv(file,readHeader, readData, True)
 
  
-class MainProg(QMainWindow): 
-    def blank(self):
-        """
-            class to display Blank
 
-        """
-        wrwislog.debug('inside Blank')
-        # Create a QGridLayout instance
-
-        blank = QGridLayout()
-        
-        # Add widgets to the blank
-
-        blank.addWidget(QLabel(' '),0,0)
-
-        # Set the blank on the application's window
-
-        self.setLayout(blank)
-
-    def home(self):
-        """
-            class to display home
-
-        """
-        sys = loadcsv('system')
-        wrwislog.debug('inside Home')
-        self.setWindowTitle('Home')
-        self.move(0,50)
-        self.resize(965,1920 )
-
-        # Create a QGridLayout instance
-
-        home = QGridLayout()
-
-        # Add widgets to the home
-    
-        home.addWidget(QLabel('Housing Charge Calculator',font=TITLE_FONT),0,3,1,1, Qt.AlignHCenter)
-        home.addWidget(QLabel(vars.versionarea,font=LARGE_FONT),2,2,1,3, Qt.AlignHCenter)
-        home.addWidget(QLabel('Verson No.:  ' + vars.version,font=LARGE_FONT),3,2,1,3, Qt.AlignHCenter)
-        im = QPixmap("Images/site_logo.gif")
-        label = QLabel()
-        label.setPixmap(im)
-        home.addWidget(label,4,2,1,3, Qt.AlignHCenter)
-        home.addWidget(QLabel("WRWoods Infornation",font=TINY_FONT),5,3,1,1, Qt.AlignRight)
-        home.addWidget(QLabel("Solutions Inc.",font=TINY_FONT),5,3,1,1, Qt.AlignLeft)
-        home.addWidget(QLabel("22-456 Kingscourt Drive",font=TINY_FONT),6,3,1,1, Qt.AlignLeft)
-        home.addWidget(QLabel("Waterloo On N2K 3S1",font=TINY_FONT),7,3,1,1, Qt.AlignLeft)
-        home.addWidget(QLabel("519-886-6649",font=TINY_FONT),8,3,1,1, Qt.AlignLeft)
-
-  
-        # Set the home on the application's window
-
-        self.setLayout(home)
-
-    def settingeditor(self):
-        """
-            class to display Setting Editor
-
-        """
-        sys = loadcsv('system')
-        wrwislog.debug('inside settingeditor')
-        self.setWindowTitle("Setting Editor")
-        self.move(0,100)
-        self.resize(965,1820 )
-
-        # Create a QGridLayout instance
-
-        Settinged = QGridLayout()
-
-        # Add widgets to the Settinged
-
-        Settinged.addWidget(QLabel('Setting Editor',font=TITLE_FONT),0,3,1,1, Qt.AlignHCenter)
-
-        Settinged.addWidget(QLabel('Base Element',font=NORMAL_FONT),1,0,1,1, Qt.AlignLeft)
-        cboxbaseelement = QComboBox()
-        cboxbaseelement.addItems(['ADD','system', 'codes', 'members', 'units', 'connect','DELETE'])
-        Settinged.addWidget(cboxbaseelement,3,0,Qt.AlignLeft)
-        
-        Settinged.addWidget(QLabel('Positon on the Screen',font=NORMAL_FONT),1,1,1,2, Qt.AlignLeft)
-        Settinged.addWidget(QLabel('Height',font=NORMAL_FONT),2,1,1,1, Qt.AlignLeft)
-        scnheight = QLineEdit()
-        Settinged.addWidget(scnheight,3,1,Qt.AlignLeft)
-        Settinged.addWidget(QLabel('Width',font=NORMAL_FONT),2,2,1,1, Qt.AlignLeft)
-        scnwidth = QLineEdit()
-        Settinged.addWidget(scnwidth,3,2,Qt.AlignLeft)
-
-        Settinged.addWidget(QLabel('Element Nane',font=NORMAL_FONT),1,3,1,1, Qt.AlignLeft)
-        elementname = QLineEdit()
-        Settinged.addWidget(elementname,3,3,Qt.AlignLeft)
-   
-        Settinged.addWidget(QLabel('Number of Items',font=NORMAL_FONT),1,4,1,1, Qt.AlignLeft)
-        noofitems = QLineEdit()
-        Settinged.addWidget(noofitems,3,4 ,Qt.AlignLeft)
-        Settinged.addWidget(QLabel('Item',font=NORMAL_FONT),4,1,Qt.AlignHCenter)
-        try:
-            noofitem
-        except NameError:    
-            noofitem = 1
-        ln = 0
-        rowno = 6
-        outtext = []
-        btmedit = 'Edit'
-        btmadd = 'Add'
-        btmdelete = 'Delete'
-        for i in range(int(noofitem)):
-            item = QLineEdit()
-            outtext.append(item.text)
-            Settinged.addWidget(item,rowno,1,Qt.AlignHCenter)
-
-            btmedit = btmedit+str(rowno)
-            btmedit = QPushButton('Edit')
-            btmedit.clicked.connect(lambda:self.actionEdit(rowno))  
-            Settinged.addWidget(btmedit,rowno,3,Qt.AlignLeft)
-
-            btmadd = btmadd+str(rowno)
-            btmadd = QPushButton('Add')
-            btmadd.clicked.connect(lambda:self.actionAdd(rowno))  
-            Settinged.addWidget(btmadd,rowno,2,Qt.AlignHCenter)
-
-            btmdelete = btmdelete+str(rowno)
-            btmdelete = QPushButton('Delete')
-            btmdelete.clicked.connect(lambda:self.actionDelete(rowno))  
-            Settinged.addWidget(btmdelete,rowno,3,Qt.AlignRight)
-
-        # Set the Settinged on the application's window
-
-        self.setLayout(Settinged)
- 
-    def actionEdit(rowno):
-        print('Edit pressed')
-
-    def actionAdd(rowno):
-        print('Add pressed')
-
-    def actionDelete(rowno):
-        print('Delete pressed')
-      
-    def uc(self):
-        super().__init__()
-        wrwislog.debug('inside UC')
-        self.setWindowTitle("Under Construction")
-        self.move(0,100)
-        self.resize(965,1820 )
-
-        # Create a QGridLayout instance
-
-        uc = QGridLayout()
-
-        # Add widgets to the uc
-
-        uc.addWidget(QLabel("Under Construction",font=TITLE_FONT),0,3,1,1, Qt.AlignHCenter)
-        im = QPixmap("Images/UnderConstruction.gif")
-        label = QLabel()
-        label.setPixmap(im)
-        uc.addWidget(label,4,2,1,3, Qt.AlignHCenter)
-
-        # Set the uc on the application's window
-        self.setLayout(uc)
+class MainProg (QMainWindow):
     
     """
     class to set up of MainProg
 
     """
-    def __init__(self,  *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.blank = QWidget()
-        self.home = QWidget()
-        self.settingeditor = QWidget()
-        self.uc = QWidget()
-
-        self.body = QStackedWidget (self)
-        self.body.addWidget(self.blank)         # index 0
-        self.body.addWidget(self.home)          # index 1
-        self.body.addWidget(self.settingeditor) # index 2
-        self.body.addWidget(self.uc)            # index 3
-        
+    def __init__(self):
+        super().__init__()
         self.desktop = QApplication.desktop()
         self.screenRect = self.desktop.screenGeometry()
         self.height = self.screenRect.height() - 50 - 65
         self.width = self.screenRect.width()
-        print('height is '+str(self.height) + '  width is'+ str(self.width))
+        print('height is '+str(self.height) + '  width is '+ str(self.width))
        
         self.setGeometry(50, 50, self.width, self.height)
-        self.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.setWindowTitle("Housing Charge Calculator")
         self.setWindowIcon(QIcon('/Images/SCIcon.ico'))
 
-        self.create_menu()
-        self.body.setCurrentIndex(1)
+        self.mainmenu = QMenuBar()
+        settingmenu = self.mainmenu.addMenu("Setting")
 
-    def create_menu(self):
-        """
-
-        Function to call create the menu
-        """
-        mainmenu = self.menuBar()
-        settingmenu = mainmenu.addMenu("Setting")
+        initialize = QAction("Initialize", self)
+        settingmenu.addAction(initialize)
+        initialize.triggered.connect(self.init)
 
         settingeditor = QAction("Setting Editor", self)
         settingmenu.addAction(settingeditor)
@@ -330,6 +160,7 @@ class MainProg(QMainWindow):
 
 
         ratescaleaction = QAction("RateScale", self)
+  
         settingmenu.addAction(ratescaleaction)
         ratescaleaction.triggered.connect(self.ratescale)
 
@@ -340,7 +171,203 @@ class MainProg(QMainWindow):
         exitaction = QAction('Exit', self)
         settingmenu.addAction(exitaction)
         exitaction.triggered.connect(self.closeapp)
+
+        self.blank0 = QWidget()
+        self.home1 = QWidget()
+        self.settingeditor2 = QWidget()
+        self.uc99 = QWidget()
+
+        self.home()
+        self.settingeditor()
+        self.uc()
+		
+        self.body = QStackedWidget (self)
+        self.body.addWidget (self.home1)
+        self.body.addWidget (self.settingeditor2)
+        self.body.addWidget (self.uc99)
+
+        self.show
+
+    def blank(self):
+        """
+            class to display Blank
+
+        """
+        super().__init__()
+        wrwislog.debug('inside Blank')
+        blank = QGridLayout()
         
+        # Add widgets to the blank
+
+        blank.addWidget(QLabel(' '),0,0)
+
+        # Set the blank on the application's window
+
+        self.blank0.setLayout(blank) 
+
+        """
+            class to display home
+
+        """
+    def home(self):
+        super().__init__()
+        sys = loadcsv('system')
+        wrwislog.debug('inside Home')
+
+        # Create a QGridLayout instance
+
+        home = QGridLayout()
+
+        # Add widgets to the home
+           
+        home.addWidget(QLabel('Housing Charge Calculator',font=TITLE_FONT),0,3,1,1, Qt.AlignHCenter)
+        home.addWidget(QLabel(vars.versionarea,font=LARGE_FONT),2,2,1,3, Qt.AlignHCenter)
+        home.addWidget(QLabel('Verson No.:  ' + vars.version,font=LARGE_FONT),3,2,1,3, Qt.AlignHCenter)
+        im = QPixmap("Images/site_logo.gif")
+        label = QLabel()
+        label.setPixmap(im)
+        home.addWidget(label,4,2,1,3, Qt.AlignHCenter)
+        home.addWidget(QLabel("WRWoods Infornation",font=TINY_FONT),5,3,1,1, Qt.AlignRight)
+        home.addWidget(QLabel("Solutions Inc.",font=TINY_FONT),5,3,1,1, Qt.AlignLeft)
+        home.addWidget(QLabel("22-456 Kingscourt Drive",font=TINY_FONT),6,3,1,1, Qt.AlignLeft)
+        home.addWidget(QLabel("Waterloo On N2K 3S1",font=TINY_FONT),7,3,1,1, Qt.AlignLeft)
+        home.addWidget(QLabel("519-886-6649",font=TINY_FONT),8,3,1,1, Qt.AlignLeft)
+
+
+        # Set the home on the application's window
+
+        self.home1.setLayout(home)
+    
+    """
+        class to display Setting Editor
+
+    """
+    def settingeditor(self):
+        super().__init__()
+        sys = loadcsv('system')
+        wrwislog.debug('inside settingeditor')
+        self.setWindowTitle("Setting Editor")
+        self.move(0,100)
+        self.resize(965,1820 )
+
+        # Create a QGridLayout instance
+
+        settinged = QGridLayout()
+
+        # Add widgets to the Settinged
+
+        settinged.addWidget(QLabel('Setting Editor',font=TITLE_FONT),0,3,1,1, Qt.AlignHCenter)
+
+        settinged.addWidget(QLabel('Base Element',font=NORMAL_FONT),1,0,1,1, Qt.AlignLeft)
+        cboxbaseelement = QComboBox()
+        cboxbaseelement.addItems(['ADD','system', 'codes', 'members', 'units', 'connect','DELETE'])
+        settinged.addWidget(cboxbaseelement,3,0,Qt.AlignLeft)
+        
+        settinged.addWidget(QLabel('Positon on the Screen',font=NORMAL_FONT),1,1,1,2, Qt.AlignLeft)
+        settinged.addWidget(QLabel('Height',font=NORMAL_FONT),2,1,1,1, Qt.AlignLeft)
+        scnheight = QSpinBox()
+        scnheight.value = 0
+        scnheight.maximum = 965
+        scnheight.minimum = 0
+        scnheight.singleStep = 60
+        scnhno = scnheight.value
+        settinged.addWidget(scnheight,3,1,Qt.AlignLeft)
+        settinged.addWidget(QLabel('Width',font=NORMAL_FONT),2,2,1,1, Qt.AlignLeft)
+        scnwidth = QSpinBox()
+        scnwidth.value = 0
+        scnwidth.maximum = 1920
+        scnwidth.minimum = 0
+        scnwidth.singleStep = 60
+        scnwno = scnwidth.value
+        settinged.addWidget(scnwidth,3,2,Qt.AlignLeft)
+
+        settinged.addWidget(QLabel('Element Nane',font=NORMAL_FONT),1,3,1,1, Qt.AlignLeft)
+        elementname = QLineEdit()
+        settinged.addWidget(elementname,3,3,Qt.AlignLeft)
+
+        settinged.addWidget(QLabel('Number of Items',font=NORMAL_FONT),1,4,1,1, Qt.AlignLeft)
+        noofitems = QSpinBox()
+        noofitems.value = 1
+        noofitems.maximum = 99
+        noofitems.minimum = 1
+        noofitems.singleStep =1
+        noitem = noofitems.value
+        print(noitem)
+        settinged.addWidget(noofitems,3,4 ,Qt.AlignLeft)
+        settinged.addWidget(QLabel('Item',font=NORMAL_FONT),4,1,Qt.AlignHCenter)
+    
+        try:
+            noofitems
+        except NameError:    
+            noofitems = 1
+        ln = 0
+        rowno = 6
+        outtext = []
+        btmedit = 'Edit'
+        btmadd = 'Add'
+        btmdelete = 'Delete'
+        for i in range(noitem):
+            item = QLineEdit()
+            outtext.append(item.text)
+            settinged.addWidget(item,rowno,1,Qt.AlignHCenter)
+
+            btmedit = btmedit+str(rowno)
+            btmedit = QPushButton('Edit')
+            btmedit.clicked.connect(lambda:self.actionEdit(rowno))  
+            settinged.addWidget(btmedit,rowno,3,Qt.AlignLeft)
+
+            btmadd = btmadd+str(rowno)
+            btmadd = QPushButton('Add')
+            btmadd.clicked.connect(lambda:self.actionAdd(rowno))  
+            settinged.addWidget(btmadd,rowno,2,Qt.AlignHCenter)
+
+            btmdelete = btmdelete+str(rowno)
+            btmdelete = QPushButton('Delete')
+            btmdelete.clicked.connect(lambda:self.actionDelete(rowno))  
+            settinged.addWidget(btmdelete,rowno,3,Qt.AlignRight)
+
+        # Set the Settinged on the application's window
+
+        self.settingeditor2.setLayout(settinged)
+
+    def actionEdit(rowno):
+        print('Edit pressed')
+
+    def actionAdd(rowno):
+        print('Add pressed')
+
+    def actionDelete(rowno):
+        print('Delete pressed')
+    
+    def uc(self):
+        super().__init__()
+        wrwislog.debug('inside UC')
+
+        # Create a QGridLayout instance
+
+        uclo = QGridLayout()
+
+        # Add widgets to the uc
+
+        uclo.addWidget(QLabel("Under Construction",font=TITLE_FONT),0,3,1,1, Qt.AlignHCenter)
+        im = QPixmap("Images/UnderConstruction.gif")
+        label = QLabel()
+        label.setPixmap(im)
+        uclo.addWidget(label,4,2,1,3, Qt.AlignHCenter)
+
+        # Set the uc on the application's window
+        self.uc99.setLayout(uclo)
+
+
+    def init(self):
+        """
+
+        Function to call Initialize
+
+        """
+        wrwislog.debug('in Initialize')
+        self.body.setCurrentWidget(self.uc)
+       
     def editor(self):
         """
 
@@ -348,7 +375,8 @@ class MainProg(QMainWindow):
 
         """
         wrwislog.debug('in Settingeditor')
-        self.display(2)
+        self.body.setCurrentWidget(self.settingeditor)
+
         
 
     def members(self):
@@ -358,7 +386,8 @@ class MainProg(QMainWindow):
 
         """
         wrwislog.debug('in members')
-        self.display(3)
+        self.body.setCurrentWidget(self.uc)
+
 
     def units(self):
         """
@@ -366,7 +395,8 @@ class MainProg(QMainWindow):
         Function to call units
 
         """
-        self.display(3)
+        self.body.setCurrentWidget(self.uc)
+
 
     def ratescale(self):
         """
@@ -374,7 +404,8 @@ class MainProg(QMainWindow):
         Function to call ratescale
 
         """
-        self.display(3)
+        self.body.setCurrentWidget(self.uc)
+
 
     def codes(self):
         """
@@ -382,7 +413,8 @@ class MainProg(QMainWindow):
         Function to call codes
 
         """
-        self.display(3)
+        self.body.setCurrentWidget(self.uc)
+
 
     def closeapp(self):
         """
@@ -390,13 +422,12 @@ class MainProg(QMainWindow):
         Function to call close app
 
         """
-        self.close()
         quit()
 
-    def display(self,i):
-      self.body.setCurrentIndex(i)
+    def displayhome(self):
+      self.body.setCurrentIndex(1)
 
-
+	
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     win = MainProg()
